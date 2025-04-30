@@ -20,6 +20,8 @@ This repository holds the code used to create the acoustic model used within the
 
 - For the DoSE App model, the [ASVP-ESD](https://www.kaggle.com/datasets/dejolilandry/asvpesdspeech-nonspeech-emotional-utterances) and [ESD](https://www.kaggle.com/datasets/nguyenthanhlim/emotional-speech-dataset-esd) datasets were used. 5 emotions were selected for detection (angry, happy, neutral, sad, and surprised).
 - Using these datasets, nearly 140,000 Mel spectrograms are created for the model to train on. This is achieved by splicing longer audio clips in the dataset. For example, if an audio clip is 10 seconds in length:
+
 ![splicing diagram](splicing_diagram.png)
+
 Using this technique, the 10 second audio clip has 9 usable 3 second clips. 
 - Using this data, this CNN achieved an overall accuracy of 84% on 5 emotions (angry, happy, neutral, sad, and surprised).
