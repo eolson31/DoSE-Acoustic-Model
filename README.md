@@ -25,3 +25,9 @@ This repository holds the code used to create the acoustic model used within the
 
 Using this technique, the 10 second audio clip has 9 usable 3 second clips. 
 - Using this data, this CNN achieved an overall accuracy of 84% on 5 emotions (angry, happy, neutral, sad, and surprised).
+
+## References 
+
+Kun Zhou, Berrak Sisman, Rui Liu and Haizhou Li, "Seen and unseen emotional style transfer for voice conversion with a new emotional speech dataset" ICASSP 2021-2021 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) 
+
+Dejoli, T. T. L., He, Q., & Xie, W. (2021). Audio, Speech and Vision Processing Lab Emotional Sound database (ASVP-ESD). Zenodo (CERN European Organization for Nuclear Research). https://doi.org/10.5281/zenodo.4782712
