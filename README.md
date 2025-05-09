@@ -31,3 +31,7 @@ Using this technique, the 10 second audio clip has 9 usable 3 second clips.
 Kun Zhou, Berrak Sisman, Rui Liu and Haizhou Li, "Seen and unseen emotional style transfer for voice conversion with a new emotional speech dataset" ICASSP 2021-2021 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) 
 
 Dejoli, T. T. L., He, Q., & Xie, W. (2021). Audio, Speech and Vision Processing Lab Emotional Sound database (ASVP-ESD). Zenodo (CERN European Organization for Nuclear Research). https://doi.org/10.5281/zenodo.4782712
+
+## Honorable Mention
+
+This Github was very helpful in learning how to set up the code and model: https://github.com/krbo8o5/emotion_detection/tree/main
