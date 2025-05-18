@@ -37,3 +37,7 @@ Dejoli, T. T. L., He, Q., & Xie, W. (2021). Audio, Speech and Vision Processing 
 Kun Zhou, Berrak Sisman, Rui Liu and Haizhou Li, "Seen and unseen emotional style transfer for voice conversion with a new emotional speech dataset" ICASSP 2021-2021 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) 
 
 Y. Taigman, M. Yang, M. Ranzato and L. Wolf, "DeepFace: Closing the Gap to Human-Level Performance in Face Verification," 2014 IEEE Conference on Computer Vision and Pattern Recognition, Columbus, OH, USA, 2014, pp. 1701-1708, doi: 10.1109/CVPR.2014.220.
+
+## Honorable Mention
+
+This Github was very helpful in learning how to set up the code and model: https://github.com/krbo8o5/emotion_detection/tree/main
