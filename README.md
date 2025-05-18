@@ -24,10 +24,16 @@ This repository holds the code used to create the acoustic model used within the
 ![splicing diagram](splicing_diagram.png)
 
 Using this technique, the 10 second audio clip has 9 usable 3 second clips. 
-- Using this data, this CNN achieved an overall accuracy of 84% on 5 emotions (angry, happy, neutral, sad, and surprised).
+- Using this data, this CNN achieved an overall accuracy of 84% on 5 emotions (angry, happy, neutral, sad, and surprised). Here was the resulting confusion matrix:
+
+![confusion matrix](confusion_matrix.png)
+
+The model used within the DoSE app has also been included, named `final_model.h5`. See the `create_model()` function withing [`model/cnn.py`](https://github.com/eolson31/DoSE-Acoustic-Model/blob/main/model/cnn.py) for the model architecture.
 
 ## References 
 
+Dejoli, T. T. L., He, Q., & Xie, W. (2021). Audio, Speech and Vision Processing Lab Emotional Sound database (ASVP-ESD). Zenodo (CERN European Organization for Nuclear Research). https://doi.org/10.5281/zenodo.4782712
+
 Kun Zhou, Berrak Sisman, Rui Liu and Haizhou Li, "Seen and unseen emotional style transfer for voice conversion with a new emotional speech dataset" ICASSP 2021-2021 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) 
 
-Dejoli, T. T. L., He, Q., & Xie, W. (2021). Audio, Speech and Vision Processing Lab Emotional Sound database (ASVP-ESD). Zenodo (CERN European Organization for Nuclear Research). https://doi.org/10.5281/zenodo.4782712
+Y. Taigman, M. Yang, M. Ranzato and L. Wolf, "DeepFace: Closing the Gap to Human-Level Performance in Face Verification," 2014 IEEE Conference on Computer Vision and Pattern Recognition, Columbus, OH, USA, 2014, pp. 1701-1708, doi: 10.1109/CVPR.2014.220.
